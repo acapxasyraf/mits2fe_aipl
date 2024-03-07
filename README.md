@@ -1,4 +1,5 @@
-# mintari version 0.50
+
+# mentari version 0.50
 
 ## Build Setup
 
