@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "additionalboxdiagnosis"
-    ]
+    ],
+    "vue.codeActions.enabled": false
 }
