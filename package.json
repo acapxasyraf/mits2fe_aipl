@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "postinstall": "rm -r .env && cp .env.development .env"
+    "postinstall": "NODE_OPTIONS=--max-old-space-size=4096 rm -r .env && cp .env.development .env"
   },
   "dependencies": {
     "@fullcalendar/core": "^5.11.0",
