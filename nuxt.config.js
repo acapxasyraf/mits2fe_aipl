@@ -96,8 +96,8 @@ export default defineNuxtConfig({
   },
 
   axios: {
-    baseURL: process.env.TARGET_API_BASE_URL || "http://127.0.0.1:8000/api/"
-    // baseURL: "https://madocs-be-dev-704639301453.us-central1.run.app/api/"
+    baseURL: process.env.TARGET_API_BASE_URL || "https://mits2be-aipl-704639301453.asia-southeast1.run.app/api/"
+    // baseURL: "https://mits2be-aipl-704639301453.asia-southeast1.run.app/api/"
   },
 
   build: {
